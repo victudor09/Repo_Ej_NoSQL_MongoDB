@@ -29,7 +29,123 @@ db.posts.insertMany([
       { user: "Usuario4", body: "Probaré!" }
     ]
   },
-  ...
+  {
+    title: "Mi primer maratón",
+    body: "Una experiencia única",
+    user: "Alice Johnson",
+    comments: [
+      { user: "Usuario5", body: "Felicitaciones!" },
+      { user: "Usuario6", body: "Inspiras!" }
+    ]
+  },
+  {
+    title: "Vacaciones en la montaña",
+    body: "Aire fresco y paz",
+    user: "Bob Brown",
+    comments: [
+      { user: "Usuario7", body: "Maravilloso!" },
+      { user: "Usuario8", body: "Gran lugar!" }
+    ]
+  },
+  {
+    title: "Leyendo un buen libro",
+    body: "El último de la saga",
+    user: "Carol White",
+    comments: [
+      { user: "Usuario9", body: "¿Recomendado?" },
+      { user: "Usuario10", body: "¡Me encantó!" }
+    ]
+  },
+  {
+    title: "Noche de cine",
+    body: "Vimos una película clásica",
+    user: "David Black",
+    comments: [
+      { user: "Usuario11", body: "¿Cuál fue?" },
+      { user: "Usuario12", body: "¡Genial!" }
+    ]
+  },
+  {
+    title: "Paseo en bicicleta",
+    body: "Recorrimos el parque",
+    user: "Eve Green",
+    comments: [
+      { user: "Usuario13", body: "Súper!" },
+      { user: "Usuario14", body: "Quiero ir!" }
+    ]
+  },
+  {
+    title: "Día de playa",
+    body: "Soleado y divertido",
+    user: "Frank Blue",
+    comments: [
+      { user: "Usuario15", body: "¡Me encanta!" },
+      { user: "Usuario16", body: "Voy a ir!" }
+    ]
+  },
+  {
+    title: "Caminata en el bosque",
+    body: "Conectando con la naturaleza",
+    user: "Grace Purple",
+    comments: [
+      { user: "Usuario17", body: "¡Increíble!" },
+      { user: "Usuario18", body: "Amo la naturaleza!" }
+    ]
+  },
+  {
+    title: "Jugando videojuegos",
+    body: "Nueva entrega de mi saga favorita",
+    user: "Henry Yellow",
+    comments: [
+      { user: "Usuario19", body: "¿Cuál juego?" },
+      { user: "Usuario20", body: "¡Genial!" }
+    ]
+  },
+  {
+    title: "Clase de yoga",
+    body: "Relajante y revitalizante",
+    user: "Ivy Pink",
+    comments: [
+      { user: "Usuario21", body: "Quiero probar!" },
+      { user: "Usuario22", body: "¡Me encanta!" }
+    ]
+  },
+  {
+    title: "Fin de semana de camping",
+    body: "Desconexión total",
+    user: "Jack Orange",
+    comments: [
+      { user: "Usuario23", body: "Qué bien!" },
+      { user: "Usuario24", body: "Voy a intentarlo!" }
+    ]
+  },
+  {
+    title: "Fiesta de cumpleaños",
+    body: "Celebrando con amigos",
+    user: "Kim Red",
+    comments: [
+      { user: "Usuario25", body: "¡Felicidades!" },
+      { user: "Usuario26", body: "¡Qué divertido!" }
+    ]
+  },
+  {
+    title: "Concierto en vivo",
+    body: "La banda fue increíble",
+    user: "Leo Silver",
+    comments: [
+      { user: "Usuario27", body: "¿Cuál banda?" },
+      { user: "Usuario28", body: "¡Genial!" }
+    ]
+  },
+  {
+    title: "Visita al museo",
+    body: "Arte y cultura",
+    user: "Mona Gold",
+    comments: [
+      { user: "Usuario29", body: "Me encanta el arte!" },
+      { user: "Usuario30", body: "Voy a ir!" }
+    ]
+  }
 ]);
 
 //10 nuevos usuarios
