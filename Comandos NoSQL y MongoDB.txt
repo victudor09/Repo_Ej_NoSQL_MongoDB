@@ -8,8 +8,8 @@ Colecciones:
 	○ Comments:
 	//db.products.updateOne({ name: 'posts' }, { $set: {comments: []} })
 	
-INSERTAR DATOS
-// 15 publicaciones nuevas con al menos 2 comentarios por publicación
+# INSERTAR DATOS
+● 15 publicaciones nuevas con al menos 2 comentarios por publicación
 db.posts.insertMany([
   {
     title: "Mi viaje por Bali",
@@ -148,7 +148,7 @@ db.posts.insertMany([
   }
 ]);
 
-//10 nuevos usuarios
+● 10 nuevos usuarios
 db.users.insertMany([
   { user: "Harvey", email: "harvey@harvey.com", age: 25 },
   { user: "Alice", email: "alice@alice.com", age: 28 },
@@ -162,5 +162,12 @@ db.users.insertMany([
   { user: "Ivy", email: "ivy@ivy.com", age: 23 }
 ]);
 
+# ACTUALIZAR DATOS
+● Actualizar publicaciones:
+  ○ Actualiza todos los campos de una publicación
 
 
+
+  ○ Cambiar el body de una publicación.
+  ○ Actualizar comentarios:
+    ■ Actualiza el comentario de una publicación.
