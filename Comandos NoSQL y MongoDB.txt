@@ -1,0 +1,50 @@
+mongosh
+
+use mySocialApp
+
+Colecciones:
+● Users: db.createCollection('users')
+● Posts: db.createCollection('posts')
+	○ Comments:
+	//db.products.updateOne({ name: 'posts' }, { $set: {comments: []} })
+	
+INSERTAR DATOS
+// 15 publicaciones nuevas con al menos 2 comentarios por publicación
+db.posts.insertMany([
+  {
+    title: "Mi viaje por Bali",
+    body: "Lo pasamos de maravilla",
+    user: "John Doe",
+    comments: [
+      { user: "Usuario1", body: "Increíble!" },
+      { user: "Usuario2", body: "Quiero ir!" }
+    ]
+  },
+  {
+    title: "Cocinando Pasta",
+    body: "Receta fácil y rápida",
+    user: "Jane Smith",
+    comments: [
+      { user: "Usuario3", body: "Delicioso!" },
+      { user: "Usuario4", body: "Probaré!" }
+    ]
+  },
+  ...
+]);
+
+//10 nuevos usuarios
+db.users.insertMany([
+  { user: "Harvey", email: "harvey@harvey.com", age: 25 },
+  { user: "Alice", email: "alice@alice.com", age: 28 },
+  { user: "Bob", email: "bob@bob.com", age: 22 },
+  { user: "Charlie", email: "charlie@charlie.com", age: 30 },
+  { user: "Diana", email: "diana@diana.com", age: 27 },
+  { user: "Eve", email: "eve@eve.com", age: 26 },
+  { user: "Frank", email: "frank@frank.com", age: 24 },
+  { user: "Grace", email: "grace@grace.com", age: 29 },
+  { user: "Hank", email: "hank@hank.com", age: 31 },
+  { user: "Ivy", email: "ivy@ivy.com", age: 23 }
+]);
+
+
+
